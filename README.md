@@ -9,7 +9,7 @@ for identifying DE isoforms across more than two conditions are the same as thos
 
 Installation
 
-EBSeq is currently available at Bioconductor (EBSeq Bioconductor page). To install, type the following commands in R:
+EBSeq is currently available at Bioconductor (http://www.bioconductor.org/packages/devel/bioc/html/EBSeq.html). To install, type the following commands in R:
 
 source("http://bioconductor.org/biocLite.R")
 
