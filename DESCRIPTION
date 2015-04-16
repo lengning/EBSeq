@@ -1,7 +1,7 @@
 Package: EBSeq
 Type: Package
 Title:An R package for gene and isoform differential expression analysis of RNA-seq data 
-Version: 1.7.1
+Version: 1.8.0
 Date: 2015-1-29
 Author: Ning Leng, Christina Kendziorski
 Maintainer: Ning Leng <nleng@wisc.edu>
