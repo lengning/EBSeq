@@ -1081,7 +1081,7 @@ when applying EBTest() or EBMultiTest() function.
 \section{Common Q and A}
 \subsection{Read in data}
 
-csv file:
+\indent csv file:
 
 \verb+In=read.csv("FileName", stringsAsFactors=F, row.names=1, header=T)+
 
@@ -1100,13 +1100,17 @@ and \verb+header+ option depends on how the input file was generated.
 
 \subsection{GetDEResults() function not found}
 
-You may on an earlier version of EBSeq. The GetDEResults function
+\indent You may on an earlier version of EBSeq. The GetDEResults function
 was introduced since version 1.7.1.
 The latest release version could be found at:
 
+\url{http://www.bioconductor.org/packages/release/bioc/html/EBSeq.html}
+
+The latest devel version:
+
 \url{http://www.bioconductor.org/packages/devel/bioc/html/EBSeq.html}
 
-And you may check your package version by typing \verb+packageVersion("EBSeq")+
+And you may check your package version by typing \verb+packageVersion("EBSeq")+.
 
 
 \subsection{Visualizing DE genes/isoforms}
@@ -1121,7 +1125,7 @@ The normalized matrix may be obtained from \verb+GetNormalizedMat()+ function.
 
 \subsection{My favorite gene/isoform has NA in PP (status "NoTest")}
 
-The NoTest status comes from two sources
+\indent The NoTest status comes from two sources:
 
 1) In version 1.3.3-1.7.0, using the default parameter settings of EBMultiTest(), the function
 will not test on genes with more than 75\% values $\le$ 10 to ensure better

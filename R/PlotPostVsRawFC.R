@@ -1,5 +1,5 @@
 PlotPostVsRawFC<-function(EBOut,FCOut){
-library(gplots)
+#library(gplots)
 
 par(fig=c(0,.8,0,1), new=F)
 RainbowColor=rev(redgreen(length(FCOut$PostFC)))
