@@ -1081,36 +1081,36 @@ when applying EBTest() or EBMultiTest() function.
 \section{Common Q and A}
 \subsection{Read in data}
 
-\indent csv file:
+csv file:
 
 \verb+In=read.csv("FileName", stringsAsFactors=F, row.names=1, header=T)+
 
 \verb+Data=data.matrix(In)+
 
-txt file:
+\noindent txt file:
 
 \verb+In=read.table("FileName", stringsAsFactors=F, row.names=1, header=T)+
 
 \verb+Data=data.matrix(In)+
 
-check \verb+str(Data)+ and make sure it is a matrix instead of data frame. You may need to play around with the \verb+row.names+ 
+\noindent Check \verb+str(Data)+ and make sure it is a matrix instead of data frame. You may need to play around with the \verb+row.names+ 
 and \verb+header+ option depends on how the input file was generated.
 
 
 
 \subsection{GetDEResults() function not found}
 
-\indent You may on an earlier version of EBSeq. The GetDEResults function
+You may on an earlier version of EBSeq. The GetDEResults function
 was introduced since version 1.7.1.
 The latest release version could be found at:
 
 \url{http://www.bioconductor.org/packages/release/bioc/html/EBSeq.html}
 
-The latest devel version:
+\noindent The latest devel version:
 
 \url{http://www.bioconductor.org/packages/devel/bioc/html/EBSeq.html}
 
-And you may check your package version by typing \verb+packageVersion("EBSeq")+.
+\noindent And you may check your package version by typing \verb+packageVersion("EBSeq")+.
 
 
 \subsection{Visualizing DE genes/isoforms}
