@@ -41,7 +41,7 @@ function(Data,NgVector=NULL,Conditions, sizeFactors, maxround, Pool=F, NumBin=10
 	if(length(NotAllZeroNames)==0)stop("0 transcript passed")
 	Data=Data[NotAllZeroNames,]
 	if(!is.null(NgVector))NgVector=NgVector[NotAllZeroNames]
-	if(length(sizeFactors)==length(Data))sizeFactors=sizeFactors[NotAllZeroNames,]
+	if(length(sizeFactors)!=ncol(Data))sizeFactors=sizeFactors[NotAllZeroNames,]
 	if(is.null(NgVector))NgVector=rep(1,nrow(Data))
 
 	#Rename Them
@@ -528,7 +528,7 @@ if (length(AllNA)>0){
 	if(length(sizeFactors)==ncol(Data))
 	R.NotIn=outer(R.NotIn.raw,sizeFactors)
 	if(length(sizeFactors)==length(Data))
-	R.NotIn=R.NotIn.raw*sizeFactors[NotIn,]
+	R.NotIn=R.NotIn.raw*sizeFactors[names(R.NotIn.raw),]
 	R.NotIn1=matrix(R.NotIn[,Conditions==levels(Conditions)[1]],nrow=nrow(R.NotIn))
 	R.NotIn2=matrix(R.NotIn[,Conditions==levels(Conditions)[2]],nrow=nrow(R.NotIn))
     

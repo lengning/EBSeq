@@ -32,7 +32,7 @@ function(Data,NgVector=NULL,Conditions,AllParti=NULL, sizeFactors, maxround,  Po
 	
 	if(!is.null(NgVector))NgVector=NgVector[NotAllZeroNames]
 	if(is.null(NgVector))NgVector=rep(1,nrow(Data))
-
+	if(length(sizeFactors)!=ncol(Data))sizeFactors=sizeFactors[NotAllZeroNames,]
 
 	#ReNameThem
 	IsoNamesIn=rownames(Data)
@@ -360,7 +360,7 @@ if (length(AllNA)>0){
 	if(length(sizeFactors)==ncol(Data))
 	R.NotIn=matrix(outer(R.NotIn.raw,sizeFactors),nrow=length(AllNA.Ngorder))
 	if(length(sizeFactors)==length(Data))
-	R.NotIn=matrix(R.NotIn.raw*sizeFactors[NotIn,],nrow=length(AllNA.Ngorder))
+	R.NotIn=matrix(R.NotIn.raw*sizeFactors[names(R.NotIn.raw),],nrow=length(AllNA.Ngorder))
     
 	DataListNotIn.unlistWithZ=matrix(DataList.unlist[AllNA.Ngorder,],
 																	 nrow=length(AllNA.Ngorder))
