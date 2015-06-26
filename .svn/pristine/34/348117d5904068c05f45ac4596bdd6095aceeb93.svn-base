@@ -1,0 +1,1342 @@
+@manual{Rpackage, 
+ author = "{R Development Core Team}",
+ title = "R: A language and environment for statistical computing", 
+ organization = "R Foundation for Statistical Computing",
+ address = "Vienna, Austria", 
+ year = "2009", 
+}
+
+
+@article{Newton01,
+author="M A Newton and Kendziorski, C M and Richmond, C S and Blattner, F R",
+title="On differential variability of expression ratios: Improved statistical inference
+about gene expression changes from microarray data",
+journal="Journal of Computational Biology",
+volume="8",
+pages="37--52",
+year="2001",
+}
+
+
+@article{Wang09,
+author="Wang, Z and Gerstein M and Snyder M",
+title="RNA-Seq: a revolutionary tool for transcriptomics",
+journal="Nature Reviews Genetics",
+volume="10",
+pages="57--63", 
+year="2009",
+}
+
+@article{Bullard10,
+author="Bullard, J H and Purdom, E A and Hansen, K D and Dudoit, S",
+title="Evaluation of Statistical Methods for Normalization and Differential Expression in mRNA-Seq Experiments",
+journal="BMC Bioinformatics",
+volume="11",
+pages="94",
+year="2010",
+}
+
+@article{Hansen10,
+author="Hansen, K D and Brenner, S E and Dudoit, S",
+title="Biases in Illumina transcriptome sequencing caused by random hexamer priming",
+journal="Nucleic Acids Research",
+volume="38(12)",
+pages="e131",
+year="2010",
+}
+
+@article{Wang08,
+author="Wang, E T and Sandberg, R and Luo, S and Khrebtukova, I and Zhang, L and Mayr, C and Kingsmore, S F and Schroth, G P and Burge, C B",
+title="Alternative isoform regulation in human tissue transcriptomes",
+journal="Nature",
+volume="456",
+pages="470--476",
+year="2008",
+}
+
+@article{Oshlack09,
+author="Oshlack, A and Wakefield M",
+title="Transcript length bias in RNA-seq data confounds systems biology",
+journal="Biology Direct",
+volume="4",
+pages="14",
+year="2009",
+}
+
+
+@article{Robinson10,
+author="Robinson, M D and Oshlack, A",
+title="A scaling normalization method for differential expression analysis of RNA-seq data",
+journal="Genome Biology",
+volume="11",
+pages="R25",
+year="2010",
+}
+
+@article{Trapnell09,
+author="Trapnell, C and Pachter, L and Salzberg, S L",
+title="TopHat: discovering splice junctions with RNA-Seq",
+journal="Bioinformatics",
+volume="25(9)",
+pages="1105--1111",
+year="2009",
+}
+
+
+@article{Mortazavi08,
+author="Mortazavi, A and Williams, B A and McCue, K and Schaeffer, L and Wold, B",
+title="Mapping and quantifying mammalian transcriptomes by RNA-Seq",
+journal="Nature Methods",
+volume="5(1)",
+pages="621--628",
+year="2008",
+}
+
+
+@article{Trapnell10,
+author="Trapnell, C and Williams, B A and Pertea, G and Mortazavi, A and Kwan, G and van Baren, M J and Salzberg, S L and Wold, B J and Pachter, L",
+title="Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation.",
+journal="Nat Biotechnol",
+volume="28(5)",
+pages="211--215",
+year="2010",
+}
+
+@article{Pepke09,
+author="Pepke, S and Wold, B and Mortaazavi, A",
+title="Computation for ChIP-seq and RNA-seq studies",
+journal="Nat Methods",
+volume="6(11 Suppl)",
+pages="S22--32",
+year="2009",
+}
+
+
+@article{Langmean10,
+author="Langmead, B and Trapnell, C and Pop, M and Salzberg, S L",
+title="Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+journal="Genome Biology",
+pages="R25",
+year="2010",
+}
+
+@article{Bloom09,
+author="Bloom, J S and Khan, Z and Kruglyak, L and Singh, M and Caudy, A A",
+title="Measuring differential gene expression by short read sequencing: quantitative 
+       comparison to 2-channel gene expression microarrays",
+journal="BMC Genomics",
+volume="10",
+pages="221",
+year="2009",
+}
+
+@article{Wang10,
+author="Wang, L and Feng, Z and Wang, X and Wang, X and Zhang, X",
+title="DEGseq: an R package for identifying differentially expressed genes from RNA-seq data",
+journal="Bioinformatics",
+volume="26",
+pages="136--138",
+year="2010",
+}
+
+@article{Feng08,
+author="Feng, W and Liu, Y and Wu, J and Nephew, K P and Huang, T H M and Li, L",
+title="A Poisson mixture model to identify changes in RNA polymerase II binding quantity 
+      using high-throughput sequencing technology",
+journal="BMC Genomics",
+volume="9(Supl 2)",
+pages="S23",
+year="2008",
+}
+
+
+@article{Marioni08,
+author="Marioni, J C and Mason, C E and Mane, S M and Stephens, M and Gilad, Y",
+title="RNA-seq: An assessment of technical reproducibility and comparison with gene 
+      expression arrays",
+journal="Genome Research",
+volume="18",
+pages="1509--1517",
+year="2008",
+}
+
+
+
+@article{Nagalakshmi08,
+author="Nagalakshmi, U and Wang, Z and Waern, K and Shou, C and Raha, D and Gerstein, M",
+title="The Transcriptional Landscape of the Yeast Genome Defined by RNA Sequencing",
+journal="Science",
+volume="320(5881)",
+pages="1344--1349",
+year="2008",
+}
+
+
+@article{Lu05,
+author="Lu, J and Tomfohr, J K and Kepler, T B",
+title="Identifying differential expression in multiple SAGE libraries: an overdispersed 
+      log-linear model approach",
+journal="BMC Bioinformatics",
+volume="6",
+pages="165",
+year="2005",
+}
+
+
+@article{Robinson08,
+author="Robinson, M D and Smyth, G K",
+title="Small-sample estimation of negative binomial dispersion, with applications to SAGE 
+      data",
+journal="Biostatistics",
+volume="9",
+pages="321--332",
+year="2008",
+}
+
+@article{Anders10,
+author="Anders, S and Huber, W",
+title="Differential expression analysis for sequence count data",
+journal="Genome Biology",
+volume="11",
+pages="R106",
+year="2010",
+}
+
+
+@article{Zheng09,
+author="Zheng, S and Chen, L",
+title="A hierarchical Bayesian model for comparing transcriptomes at the individual 
+      transcript isoform level",
+journal="Nucleic Acids Research",
+pages="1--16",
+year="2009",
+}
+
+
+@article{Howard10,
+author="Howard, B E and Heber, S",
+title="Towards reliable isoform quantification using RNA-SEQ data",
+journal="BMC Bioinformatics",
+volume="11(Suppl 3)",
+pages="S6",
+year="2010",
+}
+
+@article{Wang10b,
+author="Wang, X and Wu, Z and Zhang, X",
+title="Isoform abundance inference provides a more accurate estimation of gene expression levels in RNA-seq",
+journal="Journal of Bioinformatics and Computational Biology",
+volume="8(Suppl 1)",
+pages="177--192",
+year="2010",
+}
+
+@article{Richard10,
+author="Richard, H and Schulz, M H and Sultan, M and Nürnberger, A and Schrinner, S and Balzereit, D and Dagand, E and Rasche, A and Lehrach, H and Vingron, M and Haas, S A and Yaspo, M L",
+title="Prediction of alternative isoforms from exon expression levels in RNA-Seq experiments",
+journal="Nucleic Acids Research",
+volume="38(10)",
+pages="e112",
+year="2010",
+}
+
+
+@article{Datta10,
+author="Datta, S and Datta, S and Kim, S and Chakraborty, S and Gill, R S",
+title="Statistical Analyses of Next Generation Sequence Data: A Partial Overview ",
+journal="Journal of Proteomcs and Bioinformatics",
+volume="3(6)",
+pages="183--190",
+year="2010",
+}
+
+
+@article{Lee10,
+author="Lee, S and Seo, C H and Lim, B and Yang, J O and Oh, J and Kim, M and Lee, S and Lee, B and Kang, C and Lee, S",
+title="Accurate quantification of transcriptome from RNA-Seq data by effective length 
+      normalization",
+journal="Nucleic Acids Research",
+volume="39(2)",
+pages="e9",
+year="2010",
+}
+
+
+@article{Srivastava10,
+author="Srivastava, S and Chen, L",
+title="A two-parameter generalized Poisson model to improve the analysis of RNA-seq data",
+journal="Nucleic Acids Research",
+volume="38(17)",
+pages="e170",
+year="2010",
+}
+
+
+@article{Hiller09,
+author="Hiller, D and Jiang, H and Wu, W and Wong, W H",
+title="Identifiability of isoform deconvolution from junction arrays and RNA-Seq",
+journal="Bioinformatics",
+volume="25(23)",
+pages="3056--3059",
+year="2009",
+}
+
+
+@article{Wegmann08,
+author="Wegmann, D and Dupanloup, I and Excoffier, L",
+title="Width of gene expression profile drives alternative splicing",
+journal="PLos one",
+volume="3(10)",
+pages="e3587",
+year="2008",
+}
+
+
+@article{Li11,
+author="Li, Y and Terrel, A and Patel, J M",
+title="WHAM: A High-throughput Sequence Alignment Method",
+journal="ACM SIGMOD",
+volume="",
+pages="",
+year="2011",
+}
+
+
+@article{Robinson07,
+author="Robinson, M D and Smyth, G K",
+title="Moderated statistical tests for assessing differences in tag abundance",
+journal="Bioinformatics",
+volume="23(21)",
+pages="2881--2887",
+year="2007",
+}
+
+
+@article{Robinson10b,
+	author="Robinson, M D and McCarthy, D J and Smyth, G K",
+	title="edgeR: a Bioconductor package for differential expression analysis of digital gene expression data.",
+	journal="Bioinformatics",
+	volume="26(1)",
+	pages="139-40",
+	year="2010",
+}
+
+
+
+@article{Hardcastle10,
+author="Hardcastle, T J and Kelly, K A",
+title="baySeq: empirical Bayesian methods for identifying differential expression in sequence count data",
+journal="BMC Bioinformatics",
+volume="11",
+pages="422",
+year="2010",
+}
+
+
+
+@article{Gao11,
+author="Gao, L and Fang, Z and Zhang, K and Zhi, D and Cui, X",
+title="Length bias correction for RNA-seq data in gene set analyses",
+journal="Bioinformatics",
+volume="27(5)",
+pages="662--669",
+year="2011",
+}
+
+
+
+@article{Jiang09,
+author="Jiang, H and Wing, W H",
+title="Statistical inferences for isoform expression in RNA-Seq",
+journal="Bioinformatics",
+volume="25(8)",
+pages="1026--1032",
+year="2009",
+}
+
+
+
+@article{Li10,
+author="Li, B and Ruotti, V and Stewart, R M and Thomson, J A and Dewey, C N",
+title="RNA-Seq gene expression estimation with read mapping uncertainty",
+journal="Bioinformatics",
+volume="26(4)",
+pages="493--500",
+year="2010",
+}
+
+
+
+@article{Ozsolak11,
+author="Ozsolak, F and Milos, P M",
+title="RNA sequencing: advances, challenges and opportunities",
+journal="Nature Reviews Genetics",
+volume="12",
+pages="87--98",
+year="2011",
+}
+
+
+
+@article{Gao10,
+author="Gao, D and Kim, J and Kim, H and Phang, T L and Selby, H and Tan, A C and Tong, T",
+title="A survey of statistical software for analysing RNA-seq data",
+journal="Human Genomics",
+volume="5(1)",
+pages="56--60",
+year="2010",
+}
+
+
+
+@article{Haas10,
+author="Haas, B J and Zody, M C",
+title="Advancing RNA-Seq analysis",
+journal="Nature Biotechnology",
+volume="28",
+pages="421--423",
+year="2010",
+}
+
+
+
+@article{Salzberg10,
+author="Salzberg, S L",
+title="Recent advances in RNA sequence analysis",
+journal="F1000 Biology Reports",
+volume="2",
+pages="64",
+year="2010",
+}
+
+@article{Turro09,
+author="Turro, E and Lewin, A and Rose, A and Dallman, M J and Richardson, S",
+title="MMBGX: a method for estimating expression at the isoform level and detecting 
+      differential splicing using whole-transcript Affymetrix arrays",
+journal="Nucleic Acids Research",
+volume="38(1)",
+pages="e4",
+year="2009",
+}
+
+@article{Bemmo08,
+author="Bemmo, A and Benovoy, D and Kwan, T and Gaffney, D J and Jensen, R V and Majewski, Jacek",
+title="Gene Expression and Isoform Variation Analysis using Affymetrix Exon Arrays",
+journal="BMC Genomics",
+volume="9",
+pages="529",
+year="2008",
+}
+
+@article{Xing08,
+author="Xing, Y and Stoilov, P and Kapur, K and Han, A and Jiang, H and Shen, S and Black, D L and Wong, W H",
+title="MADS: a new and improved method for analysis of differential alternative splicing by 
+      exon-tiling microarrays",
+journal="RNA",
+volume="14(8)",
+pages="1470--1479",
+year="2008",
+}
+
+
+@article{Anton08,
+author="Anton, M A and Gorostiaga, D and Guruceaga, E and Segura, V and Carmona-Saez, P and Pascual-Montano, A and Pio, R and Montuenga, L M and Rubio, A",
+title="SPACE: an algorithm to predict and quantify alternatively spliced isoforms using microarrays",
+journal="Genome Biology",
+volume="9",
+pages="R46",
+year="2008",
+}
+
+
+@article{Liu10,
+author="Liu, S and Lin, L and Wang, D and Xing, Y ",
+title="A comparison of RNA-Seq and high-density exon array for detecting differential 
+       gene expression between closely related species",
+journal="Nucleic Acids Research",
+volume="39(2)",
+pages="578--588",
+year="2010",
+}
+
+@article{Degner09,
+author="Degner, J F and Marioni, J C and Pai, A A and Pickrell, J K and Nkadori, E and Gilad, Y and Pritchard, J K",
+title="Effect of read-mapping biases on detecting allele-specific expression from 
+       RNA-sequencing data",
+journal="Bioinformatics",
+volume="25(24)",
+pages="3207--3212",
+year="2009",
+}
+
+
+
+@article{Neverov05,
+author="Neverov, A D and Nurtdinov, I A R N and Frishman, D and Gelfand, M S and Mironov, A A",
+title="Alternative splicing and protein function",
+journal="BMC Bioinformatics",
+volume="6",
+pages="266",
+year="2005",
+}
+
+
+
+@article{Birzele07,
+author="Birzele, F and Csaba, G and Zimmer, R",
+title="Alternative splicing and protein structure evolution",
+journal="Nucleic Acids Research",
+volume="36(2)",
+pages="550--558",
+year="2007",
+}
+
+
+@article{Jiang08,
+author="Jiang, H and Wing, W H",
+title="SeqMap: mapping massive amount of oligonucleotides to the genome",
+journal="Bioinformatics",
+volume="24(20)",
+pages="2395--2396",
+year="2008",
+}
+
+
+
+@article{Hansen10,
+author="Hansen, K and Brenner, S and Dudoit S",
+title="Biases in Illumina transcriptome sequencing caused by random hexamer priming.",
+journal="Nucleic Acids Research",
+volume= "38",
+pages= "1-7",
+year="2010",
+}
+
+@article{Zhou11,
+author="Zhou, Y.H. and Xia, K. and Wright, F.A.",
+title="A Powerful and Flexible Approach to the Analysis of RNA Sequence Count Data.",
+journal="Bioinformatics",
+volume= "27",
+pages= "2672-2678",
+year="2011",
+}
+
+@article{Singh11,
+author="Singh, D. and Orellana, C.F. and Hu, Y. and Jones, C.D. and Liu, Y. and Chiang, D.Y. and Liu, J. 
+and Prins, JF.",
+title="FDM: a graph-based statistical method to detect differential transcription using RNA-seq data",
+journal="Bioinformatics",
+volume= "27",
+pages= "2633-2640",
+year="2011",
+}
+
+
+@article{Chang11,
+author="Chang, PL and Dunham, JP and Nuzhdin, SV and Arbeitman, MN.",
+title="Somatic sex-specific transcriptome differences in Drosophila revealed by whole transcriptome sequencing.",
+journal="BMC Genomics",
+volume= "12",
+pages= "364",
+year="2011",
+}
+
+
+@article{Dempster77,
+author="Dempster, A.P. and Laird, N.M. and  Rubin, D.B.",
+title="Maximum Likelihood from Incomplete Data via the EM Algorithm.",
+journal="Journal of the Royal Statistical Society",
+volume= "39",
+pages= "1-38",
+year="1977",
+}
+
+@article{Katz10,
+author="Katz, Y. and Wang, E.T. and  Airoldi, E.M. and Burge, C.B.",
+title="Analysis and design of RNA sequencing experiments for identifying isoform regulation.",
+journal="Nature Methods",
+volume= "7",
+pages= "1009-1015",
+year="2010",
+}
+
+@manual{edgeRV,
+author="Robinson, M. and McCarthy, D. and Chen, Y. and Smyth, G.K.",
+title="edgeR: differential expression analysis
+	   of digital gene expression data: User’s Guide",
+year="2014",
+url="http://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf",
+}
+
+@article{Stamm05,
+author="Stamm, S and Ben-Ari, S and Rafalska, I and Tang, Y and Zhang, Z and Toiber, D and Thanaraj, T A and Soreq H",
+title="Function of alternative splicing. ",
+year="2005",
+journal="Gene",
+volume= "344",
+pages= "1-20",
+}
+
+@article{Smith89,
+author="Smith, C W and Patton, J G and Nadal-Ginard, B",
+title="Alternative splicing in the control of gene expression. ",
+year="1989",
+journal="Annu Rev Genet.",
+volume= "23",
+pages= "527-77",
+}
+
+@article{gould09,
+author="Gould, M N",
+title="The Utility of Comparative Genetics to Inform Breast Cancer Prevention Strategies ",
+year="2009",
+journal="Genetics",
+volume= "183",
+pages= "409-412",
+}
+
+@article{MAQC06,
+author="MAQC Consortium",
+title="The MicroArray Quality Control (MAQC) project shows inter- and intraplatform reproducibility of gene expression measurements.",
+year="2006",
+journal="Nature Biotechnology ",
+volume= "24",
+pages= "1151-1161",
+}
+
+@article{Sengupta10,
+author="Sengupta, S. and Ruotti, V. and Bolin, J. and Elwell, A. and Hernandez, A. and Thomson, J. and Stewart, R.",
+title="Highly consistent, fully representative mRNA-Seq libraries from ten nanograms of total RNA.",
+year="2010",
+journal="Biotechniques",
+volume= "49",
+pages= "898-904",
+}
+
+@article{Phanstiel11,
+author="Phanstiel, H P and Brumbaugh, J and Wenger, C D and Tian, S and Probasco,M D and Bailey, 
+	D J and Swaney, D L and Tervo, M A and Bolin, J M and Ruotti, V and Stewart, R and 
+	Thomson, J A and Coon, J J",
+title="Proteomic and phosphoproteomic comparison of human ES and iPS cells",
+year="2011",
+journal="Nature Methods",
+volume= "8",
+pages= "821-827",
+}
+
+@article{Dixon50,
+author="Dixon, W J",
+title="Analysis of extreme values",
+year="1950",
+journal="The Annals of Mathematical Statistics",
+volume= "21",
+pages= "488",
+}
+
+@article{Haag03,
+author="Haag, J D and Shepel, L A and Kolman, B D and Monson, D M and Benton, M E and Watts, K T and Waller, J L and Lopez-Guajardo,C C and Samuelson,D J and Gould, M N",
+title="Congenic Rats Reveal Three Independent Copenhagen Alleles within the Mcs1 Quantitative Trait Locus That Confer Resistance to Mammary Cancer",
+year="2003",
+journal="Cancer Res",
+volume= "63",
+pages= "5808",
+}
+
+
+@article{Ludwig06,
+author="Ludwig, T E and Levenstein, M E and Jones, J M and Berggren, W T 
+   and 	Mitchen, E R and Frane, J L and Crandall, L J and Daigh, C A and 
+	Conard, K R and Piekarczyk, M S and Llanas, R A and Thomson, J A.",
+title="Derivation of human embryonic stem cells in defined conditions.",
+year="2006",
+journal="Nat Biotechnol",
+volume= "24(2)",
+pages= "185-7",
+}
+
+
+@article{Guenther10,
+	author="Guenther, M Gand Frampton, G M and Soldner, F and Hockemeyer, D and Mitalipova,M and Jaenisch, R and Young, R A",
+	title="Chromatin structure and gene expression programs of 
+	human embryonic and induced pluripotent stem cells.",
+	year="2010",
+	journal="Cell stem Cell",
+    volume= "7(2)",
+	pages= "249-257",
+}
+
+@article{Chin09,    
+	author="Chin, MH and Mason, MJ and Xie, W and Volinia, S and Singer, M and 
+		Peterson, C and Ambartsumyan, G and Aimiuwu, O and Richter, L and Zhang, J and 
+		Khvorostov, I and Ott, V and Grunstein, M and Lavon, N and Benvenisty, N and 
+	   	Croce, CM and Clark, AT and Baxter, T and Pyle, AD and Teitell, MA and 
+		Pelegrini, M and Plath, K and Lowry, WE",
+    title="Induced pluripotent stem cells and embryonic stem cells are distinguished by gene expression signatures.",
+    year="2009",
+    journal="Cell stem Cell",
+	volume= "5(1)",
+    pages= "111-123",
+}
+
+
+@article{Ohi11,
+	author="Ohi, Y and Qin, H and Hong, C and Blouin, L and Polo, J M and 
+		Guo, T and Qi, Z and Downey, S L and Manos, P D and Rossi, D J and 
+		Yu, J and Hebrok, M and Hochedlinger, K and Costello, J F and Song, J S and Ramalho-Santos, M",
+	title="Incomplete DNA methylation underlies a transcriptional memory of somatic cells in human iPS cells.",
+	year="2011",
+	journal="Nat Cell Biol.",
+    volume= "13(5)",
+	pages= "541-9",
+}
+
+
+@article{Bock11,
+	author="Bock, C and Kiskinis, E and Verstappen, G and Gu, H and Boulting, G and Smith, Z D and 
+		Ziller, M and Croft, G F and Amoroso, M W and Oakley, D H and Gnirke, A and Eggan, K and Meissner, A",
+	title="Reference Maps of human ES and iPS cell variation enable high-throughput characterization of pluripotent cell lines.",
+	year="2011",
+	journal="Cell.",
+    volume= "144(3)",
+	pages= "439-52",
+}
+
+
+@article{Trapnell12,
+	author="Trapnell, C and Roberts, A and Goff, L and Pertea, G and Kim, D and Kelley, D R and 
+			Pimentel, H and Salzberg, S L and Rinn, J L and Pachter, L",
+    title="Differential gene and transcript expression analysis 
+			of RNA-seq experiments with TopHat and Cufflinks",
+    year="2012",
+    journal="Nature Protocols",
+    volume= "7(3)",
+    pages= "562-578",
+}
+
+
+@article{Li11b,
+	author="Li, B and Dewey, C N",
+	title="RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+	year="2011",
+	journal="BMC Bioinformatics",
+    volume= "12",
+	pages= "323",
+}
+
+@article{Yang07,
+	author="Yang, H and Churchill, G",
+	title="Estimating p-values in small microarray experiments",
+	year="2007",
+	journal="Bioinformatics",
+    volume= "23(1)",
+	pages= "38-43",
+}
+
+@article{Sen10,
+	author="Sen, GL and Reuter, JA and Webster, DE and Zhu, L and Khavari, PA",
+	title="DNMT1 maintains progenitor function in self-renewing somatic tissue.",
+	year="2010",
+	journal="Nature",
+    volume= "463(7280)",
+	pages= "563-7",
+}
+
+@article{Rai06,
+	author="Rai, K and Nadauld, LD and Chidester, S and 
+		Manos, EJ and James, SR and Karpf, AR and Cairns, BR and Jones, DA.",
+	title="Zebra fish Dnmt1 and Suv39h1 regulate organ-specific terminal differentiation during development.",
+	year="2006",
+	journal="Mol Cell Biol.",
+  volume= "26(19)",
+	pages= "7077-85",
+}
+
+@article{DAiuto11,
+	author="D'Aiuto, L and Di Maio, R and  Mohan, KN and Minervini, C and Saporiti, F 
+		and Soreca, I and Greenamyre, JT and Chaillet, JR.",
+	title="Mouse ES cells overexpressing DNMT1 produce abnormal neurons with upregulated NMDA/NR1 subunit.",
+	year="2011",
+	journal="Differentiation.",
+  volume= "82(1)",
+	pages= "9-17",
+}
+
+
+@article{Grabherr11,
+	author="Grabherr, MG and  Haas, BJ and Yassour, M and Levin, JZ and Thompson, DA and 
+		Amit, I and Adiconis, X and Fan, L and Raychowdhury, R and Zeng, Q and Chen, Z and 
+		Mauceli, E and Hacohen, N and Gnirke, A and Rhind, N and di Palma, F and  
+		Birren, BW and Nusbaum, C and Lindblad-Toh, K and Friedman, N and Regev, A",
+	title="Full-length transcriptome assembly from RNA-Seq data without a reference genome",
+	year="2011",
+	journal="Nat Biotechnol.",
+  volume= "29",
+	pages= "644-652",
+}
+@article{Leng12,
+    author="Leng, N. and Dawson, J.A. and Thomson, J.A and Ruotti, V and Rissman, R. A. and Smits, B.M.G and Hagg, J.D. and
+			        Gould, M.N. and Stwart, R.M. and Kendziorski, C.",
+    title="EBSeq: An empirical Bayes hierarchical model for inference in RNA-seq experiments.",
+    journal="BMI technical report, University of Wisconsin Madison",
+    volume= "226",
+		year="2012",
+}
+
+
+@article{Nicolae10,
+	  title={Estimation of alternative splicing isoform frequencies from RNA-Seq data},
+		author={Nicolae, M. and Mangul, S. and M{\u{a}}ndoiu, I. and Zelikovsky, A.},
+		journal={Algorithms in Bioinformatics},
+	  pages={202--214},
+	  year={2010},
+	  publisher={Springer}
+}
+
+@article{Sandmann11,
+	  title={The head-regeneration transcriptome of the planarian Schmidtea mediterranea},
+		author={Sandmann, T. and Vogg, M.C. and Owlarn, S. and Boutros, M. and Bartscherer, K.},
+	  journal={Genome Biology},
+	  volume={12},
+	  number={8},
+	  pages={R76},
+	  year={2011},
+	  publisher={BioMed Central Ltd}
+}
+
+@article{Anders12,
+    author="Anders, S. and Reyes, A. and  Huber, W",
+    title="Detecting differential usage of exons from RNA-Seq data",
+    journal="Nature Preceedings",
+		year="2012",
+}
+
+
+@article{Delhomme12,
+	  title={easyRNASeq: a bioconductor package for processing RNA-Seq data},
+	  author={Delhomme, N. and Padioleau, I. and Furlong, E.E. and Steinmetz, L.M.},
+	  journal={Bioinformatics},
+		year={2012},
+	  publisher={Oxford Univ Press}
+}
+
+@manual{easyRNASeq12,
+author="Delhomme,N and Padioleau, I",
+title="easyRNASeq, an overview",
+year="2012",
+url="http://www.bioconductor.org/packages/devel/bioc/vignettes/easyRNASeq/inst/doc/easyRNASeq.pdf",
+}
+
+@manual{HTSeq,
+author="Anders, S",
+title="HTSeq: Analysing high-throughput sequencing data with Python",
+year="2012",
+url="http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html",
+}
+
+@manual{Cuff,
+title="Cufflinks
+	Transcript assembly, differential expression, and differential regulation for RNA-Seq",
+year="2012",
+url="http://cufflinks.cbcb.umd.edu/index.html",
+}
+@article{Du12,
+	  title={IQSeq: Integrated Isoform Quantification Analysis Based on Next-Generation Sequencing},
+	  author={Du, J. and Leng, J. and Habegger, L. and Sboner, A. and McDermott, D. and Gerstein, M.},
+	  journal={PloS one},
+		volume={7},
+	  number={1},
+	  pages={e29175},
+	  year={2012},
+	  publisher={Public Library of Science}
+}
+ 
+@article{Pickrell10,
+	  title={Understanding mechanisms underlying human gene expression variation with RNA sequencing},
+	  author={Pickrell, J.K. and Marioni, J.C. and Pai, A.A. and Degner, J.F. and Engelhardt, B.E. and Nkadori, E. and Veyrieras, J.B. and Stephens, M. and Gilad, Y. and Pritchard, J.K.},
+	  journal={Nature},
+	  volume={464},
+	  number={7289},
+	  pages={768--772},
+	  year={2010},
+	  publisher={Nature Publishing Group}
+}
+
+
+
+@article{Wang09regen,
+	  title={Regeneration, repair and remembering identity: the three Rs of Hox gene expression},
+    author={Wang, K.C. and Helms, J.A. and Chang, H.Y.},
+    journal={Trends in cell biology},
+	  volume={19},
+	  number={6},
+	  pages={268--275},
+    year={2009},
+    publisher={Elsevier}
+}
+
+@article{Chang09,
+	  title={Anatomic demarcation of cells: genes to patterns},
+		author={Chang, H.Y.},
+	  journal={Science},
+	  volume={326},
+	  number={5957},
+	  pages={1206--1207},
+	  year={2009},
+	  publisher={American Association for the Advancement of Science}
+}
+
+@article{Rinn06,
+	  title={Anatomic demarcation by positional variation in fibroblast gene expression programs},
+		author={Rinn, J.L. and Bondre, C. and Gladstone, H.B. and Brown, P.O. and Chang, H.Y.},
+	  journal={PLoS genetics},
+	  volume={2},
+	  number={7},
+	  pages={e119},
+	  year={2006},
+	  publisher={Public Library of Science}
+}
+
+@article{Blei03,
+	  title={Latent dirichlet allocation},
+		author={Blei, D.M. and Ng, A.Y. and Jordan, M.I.},
+		journal={the Journal of machine Learning research},
+	  volume={3},
+	  pages={993--1022},
+	  year={2003},
+	  publisher={JMLR. org}
+}
+
+@inproceedings{Andrzejewski09,
+	  title={Incorporating domain knowledge into topic modeling via Dirichlet forest priors},
+		author={Andrzejewski, D. and Zhu, X. and Craven, M.},
+	  booktitle={Proceedings of the 26th Annual International Conference on Machine Learning},
+	  pages={25--32},
+	  year={2009},
+	  organization={ACM}
+}
+@article{Wu10,
+  title={Dynamic transcriptomes during neural differentiation of human embryonic stem cells revealed by short, long, and paired-end sequencing},
+  author={Wu, J.Q. and Habegger, L. and Noisa, P. and Szekely, A. and Qiu, C. and Hutchison, S. and Raha, D. and Egholm, M. and Lin, H. and Weissman, S. and others},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={107},
+  number={11},
+  pages={5254--5259},
+  year={2010},
+  publisher={National Acad Sciences}
+}
+
+@article{Monaghan09,
+  title={Microarray and cDNA sequence analysis of transcription during nerve-dependent limb regeneration},
+  author={Monaghan, J.R. and Epp, L.G. and Putta, S. and Page, R.B. and Walker, J.A. and Beachy, C.K. and Zhu, W. and Pao, G.M. and Verma, I.M. and Hunter, T. and others},
+  journal={BMC biology},
+  volume={7},
+  number={1},
+  pages={1},
+  year={2009},
+  publisher={BioMed Central Ltd}
+}
+
+@article{Malone11,
+	  title={Microarrays, deep sequencing and the true measure of the transcriptome},
+	  author={Malone, J.H. and Oliver, B.},
+	  journal={BMC biology},
+	  volume={9},
+	  number={1},
+	  pages={34},
+	  year={2011},		
+		publisher={BioMed Central Ltd}
+}
+
+@article{Auer10,
+  title={Statistical design and analysis of RNA sequencing data},
+  author={Auer, P.L. and Doerge, RW},
+  journal={Genetics},
+  volume={185},
+  number={2},
+  pages={405--416},
+  year={2010},
+  publisher={Genetics Soc America}
+}
+@article{Schubert03,
+  title={Microarray to be used as routine clinical screen},
+  author={Schubert, C.M.},
+  journal={Nature medicine},
+  volume={9},
+  number={1},
+  pages={9--9},
+  year={2003},
+  publisher={Nature Publishing Group}
+}
+
+
+
+@article{Ramaswamy02,
+  title={DNA microarrays in clinical oncology},
+  author={Ramaswamy, S. and Golub, T.R.},
+  journal={Journal of Clinical Oncology},
+  volume={20},
+  number={7},
+  pages={1932--1941},
+  year={2002},
+  publisher={American Society of Clinical Oncology}
+}
+
+@article{Stewart12,
+  title={Comparative RNA-seq Analysis in the Unsequenced Axolotl: The Oncogene Burst of Expression Defines One of Three Phases of Gene Expression in the Blastema},
+  author={Stewart, R and Rascon,CA and Tian, S and Nie, J and  
+Probasco, MD and Bolin, JM and Sengupta,S and Volkmer, M and  
+Habermann, B and Tanaka, EM and Thomson, JA and Dewey, CN},
+  year={2012},
+}
+
+
+
+@article{Grant11,
+  title={Comparative analysis of RNA-Seq alignment algorithms and the RNA-Seq unified mapper (RUM)},
+  author={Grant, G.R. and Farkas, M.H. and Pizarro, A.D. and Lahens, N.F. and Schug, J. and Brunk, B.P. and Stoeckert, C.J. and Hogenesch, J.B. and Pierce, E.A.},
+  journal={Bioinformatics},
+  volume={27},
+  number={18},
+  pages={2518--2528},
+  year={2011},
+  publisher={Oxford Univ Press}
+}
+
+
+@article{Hester10,
+  title={Comprehensive comparison of RNA--Seq alignment packages},
+  author={Hester, J.},
+  year={2010},
+  publisher={Citeseer}
+}
+
+@article{Wang10c,
+  title={MapSplice: accurate mapping of RNA-seq reads for splice junction discovery},
+  author={Wang, K. and Singh, D. and Zeng, Z. and Coleman, S.J. and Huang, Y. and Savich, G.L. and He, X. and Mieczkowski, P. and Grimm, S.A. and Perou, C.M. and others},
+  journal={Nucleic acids research},
+  volume={38},
+  number={18},
+  pages={e178--e178},
+  year={2010},
+  publisher={Oxford Univ Press}
+}
+@article{Savage09,
+	  title={R/BHC: fast Bayesian hierarchical clustering for microarray data},
+	  author={Savage, R. and Heller, K. and Xu, Y. and Ghahramani, Z. and Truman, W. and Grant, M. and Denby, K. and Wild, D.},
+	  journal={BMC bioinformatics},
+	  volume={10},
+	  number={1},
+	  pages={242},
+	  year={2009},
+	  publisher={BioMed Central Ltd}
+}
+
+@inproceedings{Heller05,
+	  title={Bayesian hierarchical clustering},
+    author={Heller, K.A. and Ghahramani, Z.},
+	  booktitle={Proceedings of the 22nd international conference on Machine learning},
+		pages={297--304},
+	  year={2005},
+	  organization={ACM}
+}
+@article{Young10,
+	  title={Method Gene ontology analysis for RNA-seq: accounting for selection bias},
+	  author={Young, M.D. and Wakefield, M.J. and Smyth, G.K. and Oshlack, A.},
+	  year={2010},
+		journal={Genome Biology},
+		volume={11}
+}
+
+@article{Subramanian05,
+	  title={Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles},
+	  author={Subramanian, A. and Tamayo, P. and Mootha, V.K. and Mukherjee, S. and Ebert, B.L. and Gillette, M.A. and Paulovich, A. and Pomeroy, S.L. and Golub, T.R. and Lander, E.S. and others},
+	  journal={Proceedings of the National Academy of Sciences of the United States of America},
+	  volume={102},
+	  number={43},
+	  pages={15545--15550},
+	  year={2005},
+	  publisher={National Acad Sciences}
+}
+
+@article{Da08,
+	  title={Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources},
+		author={Da Wei Huang, B.T.S. and Lempicki, R.A. and others},
+	  journal={Nature protocols},
+	  volume={4},
+	  number={1},
+	  pages={44--57},
+	  year={2008},
+	  publisher={Nature Publishing Group}
+}
+
+
+@article{Eng12,
+	  title={Pathway index models for construction of patient-specific risk profiles},
+	  author={Eng, K.H. and Wang, S. and Bradley, W.H. and Rader, J.S. and Kendziorski, C.},
+	  journal={Statistics in Medicine},
+	  year={2012},
+	  publisher={Wiley Online Library}
+}
+
+@article{WangS09,
+	  title={Hierarchically penalized Cox regression with grouped variables},
+	  author={Wang, S. and Nan, B. and Zhu, N. and Zhu, J.},
+	  journal={Biometrika},
+	  volume={96},
+	  number={2},
+	  pages={307--322},
+	  year={2009},
+	  publisher={Biometrika Trust}
+}
+
+@article{Huang09,
+	  title={A group bridge approach for variable selection},
+	  author={Huang, J. and Ma, S. and Xie, H. and Zhang, C.H.},
+	  journal={Biometrika},
+	  volume={96},
+	  number={2},
+	  pages={339--355},
+	  year={2009},
+		publisher={Biometrika Trust}
+}
+
+@article{Zhou10,
+	  title={Group variable selection via a hierarchical lasso and its oracle property},
+	  author={Zhou, N. and Zhu, J.},
+	  journal={arXiv preprint arXiv:1006.2871},
+	  year={2010}
+}
+@article{Segal06,
+	  title={Microarray gene expression data with linked survival phenotypes: diffuse large-B-cell lymphoma revisited},
+	  author={Segal, M.R.},
+	  journal={Biostatistics},
+	  volume={7},
+	  number={2},
+	  pages={268--285},
+	  year={2006},
+	  publisher={Biometrika Trust}
+}
+
+@article{Binsl07,
+	  title={FluxSimulator: an R package to simulate isotopomer distributions in metabolic networks},
+	  author={Binsl, T.W. and Mullen, K.M. and Van Stokkum, I.H.M. and Heringa, J. and Van Beek, J.H.G.M.},
+	  journal={J. Stat. Softw},
+	  volume={18},
+	  number={6},
+	  pages={1--18},
+	  year={2007}
+}
+
+@article{Yuan06,
+	  title={Hidden Markov models for microarray time course data in multiple biological conditions},
+	  author={Yuan, M. and Kendziorski, C.},
+	  journal={Journal of the American Statistical Association},
+	  volume={101},
+	  number={476},
+	  pages={1323--1332},
+	  year={2006},
+	  publisher={American Statistical Association}
+}
+
+
+@article{Tai06,
+	  title={A multivariate empirical Bayes statistic for replicated microarray time course data},
+		author={Tai, Y.C. and Speed, T.P.},
+	  journal={The Annals of Statistics},
+	  volume={34},
+	  number={5},
+	  pages={2387--2412},
+	  year={2006},
+	  publisher={Institute of Mathematical Statistics}
+}
+
+@article{Nueda07,
+	  title={Discovering gene expression patterns in time course microarray experiments by ANOVA--SCA},
+	  author={Nueda, M.J. and Conesa, A. and Westerhuis, J.A. and Hoefsloot, H.C.J. and Smilde, A.K. and Tal{\'o}n, M. and Ferrer, A.},
+	  journal={Bioinformatics},
+	  volume={23},
+	  number={14},
+	  pages={1792--1800},
+	  year={2007},
+	  publisher={Oxford Univ Press}
+}
+
+@article{Storey05,
+	  title={Significance analysis of time course microarray experiments},
+	  author={Storey, J.D. and Xiao, W. and Leek, J.T. and Tompkins, R.G. and Davis, R.W.},
+	  journal={Proceedings of the National Academy of Sciences of the United States of America},
+	  volume={102},
+	  number={36},
+	  pages={12837--12842},
+	  year={2005},
+	  publisher={National Acad Sciences}
+}
+@article{Luan03,
+	  title={Clustering of time-course gene expression data using a mixed-effects model with B-splines},
+	  author={Luan, Y. and Li, H.},
+    journal={Bioinformatics},
+	  volume={19},
+	  number={4},
+	  pages={474--482},
+	  year={2003},
+	  publisher={Oxford Univ Press}
+}
+
+@article{Bar03,
+	  title={Continuous representations of time-series gene expression data},
+	  author={Bar-Joseph, Z. and Gerber, G.K. and Gifford, D.K. and Jaakkola, T.S. and Simon, I.},
+	  journal={Journal of Computational Biology},
+	  volume={10},
+		number={3-4},
+	  pages={341--356},
+	  year={2003},
+	  publisher={Mary Ann Liebert, Inc.}
+}
+@article{Ma06,
+	  title={A data-driven clustering method for time course gene expression data},
+	  author={Ma, P. and Castillo-Davis, C.I. and Zhong, W. and Liu, J.S.},
+	  journal={Nucleic Acids Research},
+	  volume={34},
+	  number={4},
+	  pages={1261--1269},
+	  year={2006},
+	  publisher={Oxford Univ Press}
+}
+
+@article{Sun11,
+	  title={Multiple testing for pattern identification, with applications to microarray time-course experiments},
+	  author={Sun, W. and Wei, Z.},
+	  journal={Journal of the American Statistical Association},
+	  volume={106},
+	  number={493},
+	  pages={73--88},
+	  year={2011},
+	  publisher={Taylor \& Francis}
+}
+
+@article{Bertucci03,
+	  title={DNA arrays in clinical oncology: promises and challenges},
+	  author={Bertucci, F. and Viens, P. and Tagett, R. and Nguyen, C. and Houlgatte, R. and Birnbaum, D.},
+	  journal={Laboratory investigation},
+	  volume={83},
+	  number={3},
+	  pages={305--316},
+	  year={2003},
+	  publisher={Nature Publishing Group}
+}
+
+@article{Azad06,
+	  title={Proteomics in Clinical Trials and Practice Present Uses and Future Promise},
+	  author={Azad, N.S. and Rasool, N. and Annunziata, C.M. and Minasian, L. and Whiteley, G. and Kohn, E.C.},
+	  journal={Molecular \& Cellular Proteomics},
+	  volume={5},
+	  number={10},
+	  pages={1819--1829},
+	  year={2006},
+	  publisher={ASBMB}
+}
+
+@article{Aung10,
+	  title={Current status and future potential of somatic mutation testing from circulating free DNA in patients with solid tumours},
+	  author={Aung, KL and Board, RE and Ellison, G. and Donald, E. and Ward, T. and Clack, G. and Ranson, M. and Hughes, A. and Newman, W. and Dive, C.},
+	  journal={The HUGO journal},
+	  volume={4},
+	  number={1},
+	  pages={11--21},
+	  year={2010},
+	  publisher={Springer}
+}
+
+@article{Glaus12,
+	  title={Identifying differentially expressed transcripts from RNA-seq data with biological variation},
+	  author={Glaus, P. and Honkela, A. and Rattray, M.},
+		journal={Bioinformatics},
+	  volume={28},
+	  number={13},
+	  pages={1721--1728},
+	  year={2012},
+	  publisher={Oxford Univ Press}
+}
+
+@article{Trapnell12b,
+	  title={Differential analysis of gene regulation at transcript resolution with RNA-seq},
+	  author={Trapnell, C. and Hendrickson, D.G. and Sauvageau, M. and Goff, L. and Rinn, J.L. and Pachter, L.},
+	  journal={Nature Biotechnology},
+	  year={2012},
+	  publisher={Nature Publishing Group}
+}
+
+
+@article{Leng13,
+	  title={EBSeq: an empirical Bayes hierarchical model for inference in RNA-seq experiments},
+	    author={Leng, Ning and Dawson, John A and Thomson, James A and Ruotti, Victor and Rissman, Anna I and Smits, Bart MG and Haag, Jill D and Gould, Michael N and Stewart, Ron M and Kendziorski, Christina},
+	      journal={Bioinformatics},
+	        volume={29},
+		  number={8},
+		    pages={1035--1043},
+		      year={2013},
+		        publisher={Oxford Univ Press}
+}
+
+@article{Hamilton89,
+	  title={A new approach to the economic analysis of nonstationary time series and the business cycle},
+	    author={Hamilton, James D},
+	      journal={Econometrica: Journal of the Econometric Society},
+	        pages={357--384},
+		  year={1989},
+		    publisher={JSTOR}
+}
+@article{Ailliot12,
+	  title={Markov-switching autoregressive models for wind time series},
+	    author={Ailliot, Pierre and Monbet, Val{\'e}rie},
+	      journal={Environmental Modelling \& Software},
+	        volume={30},
+		  pages={92--101},
+		    year={2012},
+		      publisher={Elsevier}
+}
+@article{Koehler11,
+	  title={The uniqueome: a mappability resource for short-tag sequencing},
+	    author={Koehler, Ryan and Issac, Hadar and Cloonan, Nicole and Grimmond, Sean M},
+	      journal={Bioinformatics},
+	        volume={27},
+		  number={2},
+		    pages={272--274},
+		      year={2011},
+		        publisher={Oxford University Press}
+}
+@article{Derrien12,
+	  title={Fast computation and applications of genome mappability},
+	    author={Derrien, Thomas and Estell{\'e}, Jordi and Sola, Santiago Marco and Knowles, David G and Raineri, Emanuele and Guig{\'o}, Roderic and Ribeca, Paolo},
+	      journal={PloS one},
+	        volume={7},
+		  number={1},
+		    pages={e30377},
+		      year={2012},
+		        publisher={Public Library of Science}
+}
+@article{Shi13,
+	  title={rSeqDiff: Detecting Differential Isoform Expression from RNA-Seq Data Using Hierarchical Likelihood Ratio Test},
+	    author={Shi, Yang and Jiang, Hui},
+	      journal={PloS one},
+	        volume={8},
+		  number={11},
+		    pages={e79448},
+		      year={2013},
+		        publisher={Public Library of Science}
+}
+@inproceedings{Schluter05,
+	  title={Bayes risk minimization using metric loss functions.},
+	    author={Schl{\"u}ter, Ralf and Scharrenbach, Thomas and Steinbiss, Volker and Ney, Hermann},
+	      booktitle={INTERSPEECH},
+	        pages={1449--1452},
+		  year={2005}
+}
+@book{Berger85,
+	  title={Statistical decision theory and Bayesian analysis},
+	    author={Berger, James O},
+	      year={1985},
+	        publisher={Springer}
+}
+
+
