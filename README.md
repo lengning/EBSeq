@@ -84,7 +84,7 @@ maxround = 10)
 ```
 You will need to redo make after you make the changes.
 
-## I saw a gene has significant FC but is not called as DE by EBSeq, why that happens?
+## I saw a gene has significant FC but is not called as DE by EBSeq, why does that happen?
 
 EBSeq calls a gene as DE (assign high PPDE) if the across-condition variability is significantly larger than the within-condition
 variability. In the cases that a gene has large within-condition variation, although the FC across two conditions is large (small), 
