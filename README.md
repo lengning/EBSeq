@@ -105,7 +105,6 @@ each of 5 genes contains only one isoform and all genes have the same length.
 Assume only gene 5 is DE and the gene expressions of these 5 genes are:
 
 | First Header  | Second Header |
-| ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
