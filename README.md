@@ -105,6 +105,7 @@ each of 5 genes contains only one isoform and all genes have the same length.
 Assume only gene 5 is DE and the gene expressions of these 5 genes are:
 
 | |  g1|  g2|  g3|  g4|  g5|
+--|--|--|--|--|--|--
 |S1| 10|  10|  10|  10|  10|
 |S2| 20|  20|  20|  20|  100|
 
