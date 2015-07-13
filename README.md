@@ -109,16 +109,7 @@ Assume only gene 5 is DE and the gene expressions of these 5 genes are:
 |Sample|g1|g2|g3|g4|g5|
 |---|---|---|---|---|---|
 |S1|10|10|10|10|10|
-
-
-
-| Sample | g1 | g2 | g3 | g4 | g5  |
-
-| ------ | -- | -- | -- | -- | --- |
-
-| S1     | 10 | 10 | 10 | 10 | 10  |
-
-| S2     | 20 | 20 | 20 | 20 | 100 |
+|S2| 20 | 20 | 20 | 20 | 100 |
 
 Then the TPM/FPKM/RPKM will be (note sum TPM/FPKM/RPKM of all genes should be 10^6 ):
 
