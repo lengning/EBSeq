@@ -118,7 +118,9 @@ Assume only gene 5 is DE and the gene expressions of these 5 genes are:
 Then the TPM/FPKM/RPKM will be (note sum TPM/FPKM/RPKM of all genes should be 10^6 ):
 
 | Sample | g1      |  g2      |  g3      |  g4      |  g5      |
+
 | S1     | 2x10^5  |  2x10^5  |  2x10^5  |  2x10^5  |  2x10^5  |
+
 | S2     | 1.1x10^5|  1.1x10^5|  1.1x10^5|  1.1x10^5|  5.6x10^5|
 
 Based on TPM/FPKM/RPKM, an investigator may conclude that the first 4 genes are down-regulated and the 5th gene is up-regulated.
