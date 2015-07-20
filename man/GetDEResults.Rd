@@ -38,7 +38,7 @@ GetDEResults(EBPrelim, FDR=0.05, Method="robust",
 	\item{Threshold_FC}{Threshold for the fold change (FC) statistics.
 	  The default is 0.7. The FC statistics are calculated as follows. 
 		First the posterior FC estimates are calculated using PostFC() function.
-	  The FC statistics is defined as exp(log(-|posterior FC|)) and therefore is always less than
+	  The FC statistics is defined as exp(-|log posterior FC|) and therefore is always less than
 		or equal to 1.
 	  The default threshold was selected as the optimal threshold learned from our simulation studies. By setting the
 	  threshold as 0.7, the expected FC for a DE transcript is less than 0.7
@@ -54,9 +54,9 @@ GetDEResults(EBPrelim, FDR=0.05, Method="robust",
 	  statistic called Median-FC statistic for each transcript. 
 		For each transcript, we calculate the median of
 	  normalized expression values within each condition.
-		The MedianFC is defined as exp(log(-|(C1Median+SmallNum)/(C2Median+SmallNum)|)).
+		The MedianFC is defined as exp(-|log((C1Median+SmallNum)/(C2Median+SmallNum))|).
 		Note a small number is added to avoid Inf and NA. See SmallNum for more details.
-		The FCRatio is calculated as exp(log(-|FCstatistics/MedianFC|)).
+		The FCRatio is calculated as exp(-|log(FCstatistics/MedianFC)|).
 		Therefore it is always less than or equal to 1.
 		The default threshold was selected as the optimal threshold learned from our simulation studies.	  
 		By setting the threshold as 0.3, the FCRatio for a DE transcript is 
