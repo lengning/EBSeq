@@ -7,10 +7,11 @@ Median Normalization
 'MedianNorm' specifies the median normalization function from Anders et. al., 2010.
 }
 \usage{
-MedianNorm(Data)
+MedianNorm(Data, alternative = FALSE)
 }
 \arguments{
   \item{Data}{The data matrix with transcripts in rows and lanes in columns.}
+	\item{alternative}{if alternative = TRUE, the alternative version of median normalization will be applied.}
 }
 
 \value{The function will return a vector contains the normalization factor for each lane.}
