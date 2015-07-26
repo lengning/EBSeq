@@ -4,7 +4,7 @@ CHANGES IN VERSION 1.9.3
 
 
     o Correct typos in GetDEResults help file.
-		o Include an alternative method for median normalization. The alternative method may outperform the original method when the expression data contains a large number of non expressers.
+    o Include an additional method for normalization. 
 	
 CHANGES IN VERSION 1.9.2
 ------------------------
