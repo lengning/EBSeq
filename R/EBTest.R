@@ -1,6 +1,8 @@
 EBTest <-
 function(Data,NgVector=NULL,Conditions, sizeFactors, maxround, Pool=F, NumBin=1000,ApproxVal=10^-10, Alpha=NULL, Beta=NULL,PInput=NULL,RInput=NULL,PoolLower=.25, PoolUpper=.75,Print=T, Qtrm=1,QtrmCut=0)
 {
+	expect_is(sizeFactors, c("numeric","integer"))
+	expect_is(maxround, "integer")
 	if(!is.factor(Conditions))Conditions=as.factor(Conditions)
 	if(is.null(rownames(Data)))stop("Please add gene/isoform names to the data matrix")
 
@@ -17,6 +19,7 @@ function(Data,NgVector=NULL,Conditions, sizeFactors, maxround, Pool=F, NumBin=10
 
 	#Normalized
 	DataNorm=GetNormalizedMat(Data, sizeFactors)
+	expect_is(DataNorm, "matrix")
 	Levels=levels(as.factor(Conditions))
 
 	# Dixon Statistics
