@@ -1,24 +1,22 @@
 EBMultiTest <-
 function(Data,NgVector=NULL,Conditions,AllParti=NULL, sizeFactors, maxround,  Pool=F, NumBin=1000, ApproxVal=10^-10,PoolLower=.25, PoolUpper=.75,Print=T,Qtrm=1,QtrmCut=0)
 {
+ expect_is(sizeFactors, c("numeric","integer"))
+ expect_is(maxround, "integer")
  if(!is.factor(Conditions))Conditions=as.factor(Conditions)
  if(is.null(rownames(Data)))stop("Please add gene/isoform names to the data matrix")
-  if(!is.matrix(Data))stop("The input Data is not a matrix")
+ if(!is.matrix(Data))stop("The input Data is not a matrix")
  if(length(Conditions)!=ncol(Data))stop("The number of conditions is not the same as the number of samples! ")
  if(nlevels(Conditions)==2)stop("Only 2 conditions - Please use EBTest() function")
  if(nlevels(Conditions)<2)stop("Less than 2 conditions - Please check your input")
  if(length(sizeFactors)!=length(Data) &  length(sizeFactors)!=ncol(Data))
  stop("The number of library size factors is not the same as the number of samples!")
 
-
 	tau=CI=CIthre=NULL
 	Dataraw=Data
-  
-	
+
 	#Normalized
 	DataNorm=GetNormalizedMat(Data, sizeFactors)
-
-	
 
 	QuantileFor0=apply(DataNorm,1,function(i)quantile(i,Qtrm))
 	AllZeroNames=which(QuantileFor0<=QtrmCut)
