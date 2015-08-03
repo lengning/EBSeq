@@ -2,7 +2,7 @@ EBMultiTest <-
 function(Data,NgVector=NULL,Conditions,AllParti=NULL, sizeFactors, maxround,  Pool=F, NumBin=1000, ApproxVal=10^-10,PoolLower=.25, PoolUpper=.75,Print=T,Qtrm=1,QtrmCut=0)
 {
  expect_is(sizeFactors, c("numeric","integer"))
- expect_is(maxround, "integer")
+ expect_is(maxround,  c("numeric","integer"))
  if(!is.factor(Conditions))Conditions=as.factor(Conditions)
  if(is.null(rownames(Data)))stop("Please add gene/isoform names to the data matrix")
  if(!is.matrix(Data))stop("The input Data is not a matrix")
