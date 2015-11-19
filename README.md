@@ -1,7 +1,7 @@
 # EBSeq Q & A
 
 
-## ReadIn data
+## Read in data
 
 csv file:
 
@@ -124,3 +124,11 @@ Then we will get 4 false positive calls.
 Cross-sample TPM/FPKM/RPKM comparisons will be feasible only when no hypothetical DE genes present across samples 
 (Or when assuming the DE genes are sort of 'symmetric' regarding up and down regulation).  
 
+## RealFC vs PostFC
+
+The posterior fold change estimations will give less extreme values
+for low expressers. e.g. if gene1 has mean1 = 5000 and mean2 = 1000,
+its FC and PostFC will both be 5. If gene2 has mean1 = 5 and mean2 =
+1, its FC will be 5 but its PostFC will be < 5 and closer to 1.
+Therefore when we sort the PostFC, gene2 will be less significant than
+gene1.
