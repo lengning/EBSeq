@@ -5,8 +5,9 @@ CHANGES IN VERSION 1.9.3
 
     o Correct typos in GetDEResults help file.
     o Include an alternative method for normalization. The alternative method is similar to median-by-ratio normalization, 
-    	but can deal with the cases when all of the
-	genes/isoforms have at least one zero counts (in which case the median-by-ratio normalization will fail).
+    	but can deal with the cases when all of the genes/isoforms have at least one zero counts (in which case the 
+    	median-by-ratio normalization will fail). This alternative method is developed for single-cell RNA-seq analysis
+    	where the dataset always contains a large amount of zeros.
 	
 CHANGES IN VERSION 1.9.2
 ------------------------
