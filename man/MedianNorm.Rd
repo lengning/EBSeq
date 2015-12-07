@@ -18,20 +18,20 @@ MedianNorm(Data, alternative = FALSE)
 	In more details, in median-by-ratio normalization (denote l_1 as libsize for sample
 1 as an example, assume total S samples):
 
-\hat{l_1} = median_g [ X_g1 / (X_g1*X_g2*...*X_gS)^{-S} ]     (1)
+hat{l_1} = median_g [ X_g1 / (X_g1*X_g2*...*X_gS)^{-S} ]     (1)
 
 which estimates l_1 / (l_1 * l_2 * ... * l_S)^{-S}. 
 Since we have the constrain that (l_1 * l_2 * ... * l_S) = 1, equation
 (1) estimates l_1. Note (1) could also be written as:
 
-\hat{l_1}  = median_g [ (X_g1/X_g1 * X_g1/X_g2 * .... * X_g1/X_gS)^{-S}]
+hat{l_1}  = median_g [ (X_g1/X_g1 * X_g1/X_g2 * .... * X_g1/X_gS)^{-S}]
 
 In the alternative method, we estimate l_1/l_1, l_1/l_2, ... l_1/l_S
 individually by taking median_g(X_g1/X_g1),  median_g(X_g1/X_g2) ...
 Then estimate l_1 = l_1 / (l_1 * l_2 * ... * l_S)^{-S} by taking the
 geomean of these estimates:
 
-\hat{l_1} = [ median_g(X_g1/X_g1) * median_g(X_g1/X_g2) *
+hat{l_1} = [ median_g(X_g1/X_g1) * median_g(X_g1/X_g2) *
 median_g(X_g1/X_g3) * ... * median_g(X_g1/X_gS) ] ^{-S}
 
 	}
