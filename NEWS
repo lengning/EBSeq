@@ -1,4 +1,10 @@
 
+CHANGES IN VERSION 1.11.1
+------------------------
+
+
+    o Fixed a bug in EBTest() which may cause error when performing isoform DE testing 1 sample vs. multiple samples.
+
 CHANGES IN VERSION 1.9.3
 ------------------------
 
