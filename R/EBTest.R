@@ -341,7 +341,8 @@ RealName.PoolVarList=sapply(1:NoneZeroLength,function(i)PoolVar[names(PoolVar)%i
 
 RealName.QList1=sapply(1:NoneZeroLength,function(i)GetPSP[[1]][names(GetPSP[[1]])%in%NameList[[i]]], simplify=F)
 RealName.QList2=sapply(1:NoneZeroLength,function(i)GetPSP[[2]][names(GetPSP[[2]])%in%NameList[[i]]], simplify=F)
-
+if(is.null(RealName.QList1))RealName.QList1=RealName.QList2
+if(is.null(RealName.QList2))RealName.QList2=RealName.QList1
 
 for (i in 1:NoneZeroLength){
 tmp=NameList[[i]]
